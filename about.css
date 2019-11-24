@@ -1,0 +1,234 @@
+  @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700,700i&display=swap');
+/*Basic CSS*/
+   .alignleft{
+     float: left;
+     margin-right: 15px;
+   }
+   .alignright{
+     float: right;
+     margin-left: 15px;
+   }
+   .aligncenter{
+     display: block;
+     margin:0 auto 15px;
+   }
+   a:focus{autline: 0 solid}
+   img{
+     max-width: 100%;
+     height: auto;
+   }
+   h1,h2,h3,h4,h5,h6{
+     margin: 0 0 15px;
+     font-weight: 700;
+   }
+   body{
+    font-family: 'Noto Serif', serif;
+
+   }
+   a:hover{
+      
+   }
+/* end of Basic CSS*/
+
+.section-padding {
+  padding: 80px 0;
+  background: #EAF2F8;
+  font-family: 'Satisfy', cursive;
+}
+.section-heading h2 {
+  text-align: center;
+  fontsize: 30px;
+  font-weight: 700;
+}
+.section-content p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.about-area{
+  margin-top: 60px
+}
+.sec-heading {
+  text-align: center;
+  font-weight: 700;
+}
+.sec-content {
+  padding-left: 40px;
+  font-size: 20px;
+}
+.col-md-6 {
+}
+.sec-content {
+  margin-top: 20px;
+}
+
+.img-fluid.rounded {
+  margin-top: 40px;
+}
+.about-area1{
+  margin-top: 30px;
+}
+.h23{
+  margin-top: 60px;
+}
+
+.team-area{
+  margin-top: 90px;
+  background: #F2F3F4;
+
+}
+ .imgs{
+   width: 260px;
+   height: 210px;
+
+ }
+
+.team-heading h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.team-heading p {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.team-social-icons {
+ margin-left: 25px;
+ margin-right: 25px;
+ margin-top: -25px;
+ position: relative;
+ z-index: 2;
+ background: green;
+ text-align: center;
+}
+.team-social-icons a {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid #fff;
+  width: 30px;
+  line-height: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.team-social-icons a:hover{
+  background: #fff;
+  color: #000;
+
+}
+.single-team-item span {
+  display: block;
+  color: #7FB3D5;
+  font-weight: 200px;
+  font-size: 60%;
+  padding-top:5px;
+  padding-bottom: 20px;
+}
+.single-team-item h4 {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #273746;
+  text-align: center;
+  font-weight: 700;
+}
+/*footer*/
+.footer-area {
+  padding: 80px 0;
+  background: #14adf3;
+  height: 346px;
+}
+.footer-area, .footer-area a {
+  color: #fff;
+}
+.footer-wid h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.social-links a {
+  font-size: 20px;
+  padding-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+
+}
+
+.footer-wid ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-wid ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.contact-info {
+  position: relative;
+  padding-left: 30px;
+}
+.contact-info i.fa {
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+.footer-sub-form h3, h4 {
+  text-transform: uppercase;
+}
+.footer-sub-form {
+  margin-top: 30px;
+  position: relative;
+}
+.footer-sub-form input[type=email] {
+  border: none;
+  color: #000;
+  padding: 10px;
+  width: 70%;
+}
+.footer-sub-form input[type="submit"] {
+  color: #14adf3;
+  background: #fff;
+  border: none;
+  padding: 10px;
+  width: 27%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-sub-form form {
+  margin-bottom: 10px;
+}
+.footer-sub-form p {
+  font-size: 90%;
+}
+.copyright-area {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  font-size: 12px;
+  height: 45px;
+  padding-top: 22px;
+}
+.copyright-area li {
+  display: inline-block;
+  color: #000;
+}
+.copyright-area li:after {
+  content: "|";
+  padding-left: 10px;
+  padding-right: 7px;
+}
+.copyright-area li:last-child:after {
+  display: none;
+}
+.copyright-area {
+  padding: 10px 0;
+}
