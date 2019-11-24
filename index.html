@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="CSS/index.css">
+   <title>Press-Mag | Welcome to Prss-Mag</title>
+</head>
+<body>
+ <!--Navbar-->
+  <nav class="navbar bg-success navbar-dark navbar-expand-md  ">
+
+    <a class="navbar-brand" href="# "><span id="brand2">Press-Mag</span></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ml-5 ">
+        <li class="nav-item "><a class="nav-link active" href="# ">Home</a></li>
+        <li class="nav-item ml-2"><a class="nav-link" href="about.html ">About Us</a></li>
+        <li class="nav-item ml-2"><a class="nav-link" href="contact.html ">Contact</a></li>
+        <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle ml-2" data-toggle="dropdown" href="#"><i class="fa fa-user  "></i> My Account</a>
+           <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">My Profile</a>
+             <a class="dropdown-item" href="#">Log Out</a>
+           </div>
+        </li>
+     </ul>
+    <form class="form-inline ml-auto" action=" " method="post">
+        <input class="form-control" type="text" name="search" placeholder="Search" value="">
+        <button class="btn btn-primary"type="submit" name="button">Search</button>
+    </form>
+    </div>
+  </nav>
+<!--END OF NAVBAR-->
+
+<!--carousel slider-->
+ <section class="bg-dark" id="showcase">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li data-slide-to="0" data-target="#myCarousel" class="active" ></li>
+       <li data-slide-to="1" data-target="#myCarousel" ></li>
+       <li data-slide-to="2" data-target="#myCarousel" ></li>
+     </ol>
+     <div class="carousel-inner">
+       <div class="carousel-item carousel-img-1 active">
+         <img src="img/image1.jpeg" alt="Image-1">
+         <div class="container">
+           <div class="carousel-caption mb-5 pb-5 ">
+             <h2 class="display-4 text-light">Heading One</h2>
+             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus id nam odio corrupti, iure quae fugiat facere expedita ea placeat.</p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item carousel-img-2 ">
+          <img src="img/image2.jpeg" alt="Image-2">
+         <div class="container">
+           <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-right">
+             <h2 class="display-4 text-light">Heading Two</h2>
+             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus id nam odio corrupti, iure quae fugiat facere expedita ea placeat.</p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item carousel-img-3 ">
+          <img src="img/image3.jpeg" alt="Image-3">
+         <div class="container">
+           <div class="carousel-caption mb-5 pb-5 text-left">
+             <h2 class="display-4 text-light">Heading Three</h2>
+             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus id nam odio corrupti, iure quae fugiat facere expedita ea placeat.</p>
+          </div>
+         </div>
+       </div>
+     </div>
+     <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+     </a>
+     <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+       <span class="carousel-control-next-icon"></span>
+     </a>
+   </div>
+ </section>
+<!--end of carousel slider-->
+
+<!--Most watch video-->
+<section class="most-watch-video">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12  pt-3">
+        <div class="section-title">
+          <h2 >Most Watch Videos</h2>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="content">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+
+    </div>
+    <a href="#" class="see-more-btn">See more <i class="fa fa-arrow-right"></i></a>
+  </div>
+</section>
+
+
+
+<!-- end of Most watch video-->
+
+<!--recent uploads-->
+<section class="recent-upload">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12  pt-3">
+        <div class="section-title">
+          <h2 >Recent Uploads</h2>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-4">
+      <div class="col-md-4">
+        <div class="content-2">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-2">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-2">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+   </div>
+
+    <div class="row pt-5">
+      <div class="col-md-4">
+        <div class="content-2">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-2">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-2">
+        <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+       </video>
+       <h3>Video Title</h3>
+       <p>descriptio: Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+   </div>
+   <div class="row pt-5">
+          <div class="col-md-4">
+            <div class="content-2">
+            <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+           </video>
+           <h3>Video Title</h3>
+           <p>descriptio: Lorem ipsum dolor sit amet.</p>
+           </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content-2">
+            <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+           </video>
+           <h3>Video Title</h3>
+           <p>descriptio: Lorem ipsum dolor sit amet.</p>
+           </div>
+          </div>
+          <div class="col-md-4">
+            <div class="content-2">
+            <video src="video.mkv"  controls  height="200px" width="350px;"   poster=" img/image1.jpeg">
+           </video>
+           <h3>Video Title</h3>
+           <p>descriptio: Lorem ipsum dolor sit amet.</p>
+           </div>
+          </div>
+     </div>
+
+    <a href="#" class="see-more-btn mt-5 mb-5">See more <i class="fa fa-arrow-right"></i></a>
+  </div>
+</section>
+ <!-- end recent uploads-->
+<br>
+<br>
+<br>
+<br>
+<br>
+ <!-- footer-->
+ <div class="footer-area">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <div class="footer-wid">
+           <h3>Press-mag</h3>
+           <p>Press-mag is an online base media platform in Bangladesh. Our technology will help every single person to become a journalist. This will allow people from anywhere in the country to raise their grievances and problems.</p>
+         </div>
+         <div class="social-links">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+       </div>
+       <div class="col-md-4"  >
+         <div class="footer-wid">
+         <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Log Out</a></li>
+          </ul>
+       </div>
+       </div>
+       <div class="col-md-3">
+         <div class="footer-wid">
+         <p class="contact-info"><i class="fa fa-map-marker"></i>Asulia, Savar <br> Dhaka, Bangladesh</p>
+          <p class="contact-info"><i class="fa fa-envelope"></i><a href="mailto:omorsfaruk@gmail.com">omorsfaruk@gmail.com</a></p>
+          <p class="contact-info"><i class="fa fa-phone"></i><a href="tell:8801764758976">+8801764758976</a></p>
+          </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="copyright-area">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-6">
+         <p>Copyright © 2019 All right reserved by PRESS-MAG | This Site is made with ♥ by <a href="about.html">PRESS-MAG</a> </p>
+       </div>
+       <div class="col-md-6 text-right">
+         <ul>
+           <li><a href="#">Privacy Policy</a></li>
+           <li><a href="#">Terms of conditions</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
